@@ -1,0 +1,18 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+    Please select the correct picture to fit the pattern
+{% endblock %}
+
+{% block content %}
+    <img src="https://i.imgur.com/gM5yeyS.jpg" width="1000px" />
+
+    {% formfield player.answer_entered2 %}
+    {% next_button %}
+
+{% endblock %}
+
+
+
+
